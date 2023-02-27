@@ -1,0 +1,38 @@
+h1 {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.movie__form {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+main {
+  width: 100%;
+  margin-top: 2rem;
+  padding: 0 1rem;
+  text-align: center;
+}
+
+.movies {
+  width: 100%;
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1rem;
+}
+
+.movie h3,
+p {
+  text-align: center;
+  white-space: nowrap;
+}
+
+.movie img {
+  margin-top: 0.5rem;
+  border-radius: 0.3rem;
+  max-height: 400px;
+  width: auto;
+}
